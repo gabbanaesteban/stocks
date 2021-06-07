@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="661px" height="172px" viewBox="-0.5 -0.5 661 172">
+  <defs/>
+  <g>
+    <path d="M 215 87 L 190 74.48 L 190 49.46 L 215 37 L 240 49.46 L 240 74.48 Z" fill="#444444" stroke="none" pointer-events="all"/>
+    <path d="M 215.76 84.98 L 215.76 75.57 L 215 75.96 L 214.24 75.57 L 214.24 84.98 L 191.53 73.67 L 191.53 51 L 201.01 55.73 L 201.01 54.96 L 201.78 54.55 L 192.37 49.85 L 215 38.54 L 237.63 49.85 L 228.21 54.56 L 228.98 54.9 L 228.98 55.72 L 238.46 51 L 238.46 73.67 Z" fill="#ffffff" stroke="none" pointer-events="all"/>
+    <rect x="190" y="37" width="0" height="0" fill="none" stroke="#000000" pointer-events="all"/>
+    <path d="M 215 61.16 L 203.31 55.38 L 215 49.52 L 226.69 55.31 Z M 215.76 74.02 L 215.76 62.38 L 227.45 56.52 L 227.45 68.16 Z M 214.24 74.02 L 202.54 68.16 L 202.54 56.52 L 214.24 62.37 Z" fill="#ffd44f" stroke="none" pointer-events="all"/>
+    <path d="M 8.58 49.63 C 8.53 47.37 9.33 45.17 10.8 43.55 C 12.28 41.93 14.29 41.01 16.4 41 C 21.1 41.05 24.93 44.89 25.1 49.72 C 25.28 51.95 24.57 54.15 23.14 55.81 C 21.7 57.48 19.68 58.46 17.53 58.54 C 12.77 58.63 8.81 54.69 8.58 49.63 Z M 0 71 C 0.19 66.78 1.84 62.85 4.55 60.16 C 6.71 58.14 9.71 58.01 11.97 59.86 C 13.26 60.77 14.68 61.5 16.18 62.04 C 17.72 62.67 19.41 62.57 20.89 61.73 C 21.7 61.36 22.42 60.83 22.99 60.16 C 23.57 59.51 24.56 59.38 25.29 59.86 C 26.58 60.69 27.74 62.14 28.65 64.09 C 29.53 66.29 29.99 68.63 30 70.99 Z" fill="#00bef2" stroke="none" pointer-events="all"/>
+    <path d="M 374 87 L 349 74.48 L 349 49.46 L 374 37 L 399 49.46 L 399 74.48 Z" fill="#444444" stroke="none" pointer-events="all"/>
+    <path d="M 374.76 84.98 L 374.76 75.57 L 374 75.96 L 373.24 75.57 L 373.24 84.98 L 350.53 73.67 L 350.53 51 L 360.01 55.73 L 360.01 54.96 L 360.78 54.55 L 351.37 49.85 L 374 38.54 L 396.63 49.85 L 387.21 54.56 L 387.98 54.9 L 387.98 55.72 L 397.46 51 L 397.46 73.67 Z" fill="#ffffff" stroke="none" pointer-events="all"/>
+    <rect x="349" y="37" width="0" height="0" fill="none" stroke="#000000" pointer-events="all"/>
+    <path d="M 374 61.16 L 362.31 55.38 L 374 49.52 L 385.69 55.31 Z M 374.76 74.02 L 374.76 62.38 L 386.45 56.52 L 386.45 68.16 Z M 373.24 74.02 L 361.54 68.16 L 361.54 56.52 L 373.24 62.37 Z" fill="#ffd44f" stroke="none" pointer-events="all"/>
+    <path d="M 562.5 38.5 C 536.5 38.5 530 56 550.8 59.5 C 530 67.2 553.4 84 570.3 77 C 582 91 621 91 634 77 C 660 77 660 63 643.75 56 C 660 42 634 28 611.25 35 C 595 24.5 569 24.5 562.5 38.5 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="595" y="60" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">stooq.com...</text>
+      </switch>
+    </g>
+    <path d="M 40 51.5 L 171.76 51.97" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 177.76 51.99 L 169.75 55.96 L 171.76 51.97 L 169.78 47.96 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="44" y="25" width="120" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="104" y="39" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">GET /stock?aapl.us</text>
+      </switch>
+    </g>
+    <rect x="175" y="1" width="80" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="215" y="15" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">API service</text>
+      </switch>
+    </g>
+    <path d="M 246 55.5 L 337.76 55.96" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 343.76 55.99 L 335.74 59.95 L 337.76 55.96 L 335.78 51.95 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="260" y="25" width="60" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="290" y="39" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">aapl.us</text>
+      </switch>
+    </g>
+    <path d="M 430 51 L 521.76 51.46" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 527.76 51.49 L 519.74 55.45 L 521.76 51.46 L 519.78 47.45 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="400" y="25" width="140" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="470" y="39" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">GET https://stooq.com...</text>
+      </switch>
+    </g>
+    <ellipse cx="100" cy="11" rx="10" ry="10" fill="#ffffff" stroke="#d3d3d3" stroke-width="2" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="99" y="13" fill="#000000" font-family="Tahoma" font-size="12px" text-anchor="middle">1</text>
+      </switch>
+    </g>
+    <rect x="329" y="1" width="90" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="374" y="15" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">Stock service</text>
+      </switch>
+    </g>
+    <ellipse cx="290" cy="11" rx="10" ry="10" fill="#ffffff" stroke="#d3d3d3" stroke-width="2" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="289" y="13" fill="#000000" font-family="Tahoma" font-size="12px" text-anchor="middle">2</text>
+      </switch>
+    </g>
+    <ellipse cx="470" cy="11" rx="10" ry="10" fill="#ffffff" stroke="#d3d3d3" stroke-width="2" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="469" y="13" fill="#000000" font-family="Tahoma" font-size="12px" text-anchor="middle">3</text>
+      </switch>
+    </g>
+    <path d="M 530 68.5 L 438.24 68.04" fill="none" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 432.24 68.01 L 440.26 64.05 L 438.24 68.04 L 440.22 72.05 Z" fill="#67ab9f" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+    <path d="M 340 71.5 L 258.24 71.05" fill="none" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 252.24 71.01 L 260.26 67.06 L 258.24 71.05 L 260.21 75.06 Z" fill="#67ab9f" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+    <path d="M 198.75 157.04 C 200.32 158.13 203.14 159.07 206.31 159.56 C 211.89 160.42 217.84 160.4 223.17 159.64 C 226.47 159.16 229.35 158.31 231.25 157.05 L 231.25 165.04 C 231 167.25 228.75 168.41 226.32 169.2 C 220.8 170.8 211.34 171 204.61 169.46 C 201.82 168.74 198.99 167.52 198.75 165.04 Z M 198.75 129.57 C 198.75 127.46 203.79 125.25 214.69 125 C 225.51 125 231.25 127.42 231.25 129.56 C 231.25 131.93 224.29 134.1 215.74 134.1 C 206.97 134.2 198.75 132.28 198.75 129.57 Z M 198.75 132.76 C 200.32 133.85 203.14 134.78 206.31 135.28 C 211.89 136.13 217.84 136.12 223.17 135.36 C 226.47 134.88 229.35 134.03 231.25 132.77 L 231.25 140.76 C 231 142.97 228.75 144.13 226.32 144.92 C 220.8 146.52 211.34 146.72 204.61 145.18 C 201.82 144.45 198.99 143.23 198.75 140.76 Z M 198.75 144.85 C 200.32 145.93 203.14 146.87 206.31 147.36 C 211.89 148.22 217.84 148.2 223.17 147.44 C 226.47 146.97 229.35 146.11 231.25 144.85 L 231.25 152.85 C 231 155.05 228.75 156.22 226.32 157 C 220.8 158.6 211.34 158.81 204.61 157.26 C 201.82 156.53 198.99 155.31 198.75 152.84 Z" fill="#2072b8" stroke="none" pointer-events="all"/>
+    <path d="M 215 87 L 215 116.76" fill="none" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 215 122.76 L 211 114.76 L 215 116.76 L 219 114.76 Z" fill="#67ab9f" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+    <ellipse cx="230" cy="101" rx="10" ry="10" fill="#ffffff" stroke="#d3d3d3" stroke-width="2" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="229" y="103" fill="#000000" font-family="Tahoma" font-size="12px" text-anchor="middle">4</text>
+      </switch>
+    </g>
+    <path d="M 152 65.5 L 70.24 65.05" fill="none" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 64.24 65.01 L 72.26 61.06 L 70.24 65.05 L 72.21 69.06 Z" fill="#67ab9f" stroke="#67ab9f" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="404" y="74" width="150" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="479" y="88" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">stooq.com's csv response</text>
+      </switch>
+    </g>
+    <rect x="244" y="80" width="100" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="294" y="94" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">JSON response</text>
+      </switch>
+    </g>
+    <rect x="64" y="70" width="100" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="114" y="84" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">JSON response</text>
+      </switch>
+    </g>
+    <ellipse cx="114" cy="104" rx="10" ry="10" fill="#ffffff" stroke="#d3d3d3" stroke-width="2" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)">
+      <switch>
+        <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <text x="113" y="106" fill="#000000" font-family="Tahoma" font-size="12px" text-anchor="middle">5</text>
+      </switch>
+    </g>
+  </g>
+  <switch>
+    <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+    <a transform="translate(0,-5)" target="_blank">
+      <text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text>
+    </a>
+  </switch>
+</svg>

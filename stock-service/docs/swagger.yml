@@ -1,0 +1,76 @@
+swagger: '2.0'
+info:
+  description: Node.js API which retrieves stock information from  Stooq.
+  version: 1.0.0
+  title: Stock Service
+  contact:
+    email: gabbanaesteban@gmail.com
+host: localhost:3001
+basePath: /
+tags:
+  - name: Stocks
+schemes:
+  - http
+paths:
+  /stocks:
+    get:
+      tags:
+        - Stocks
+      summary: Get stock information based on its symbol
+      description: ''
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: q
+          required: true
+          type: string
+          description: Symbol of the requested stock
+      responses:
+        '200':
+          description: Ok
+          schema:
+            $ref: '#/definitions/Stock'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/BadRequest'
+
+definitions:
+  Stock:
+    type: object
+    properties:
+      symbol:
+        type: string
+        example: "AAPL.US"
+      date:
+        type: string
+        example: "2021-08-13"
+      time:
+        type: string
+        example: "22:00:06"
+      open:
+        type: string
+        example: "148.97"
+      high:
+        type: string
+        example: "149.4444"
+      low:
+        type: string
+        example: "148.27"
+      close:
+        type: string
+        example: "149.1"
+      volume:
+        type: string
+        example: "59375009"
+      name:
+        type: string
+        example: "APPLE"
+        
+  BadRequest:
+    type: object
+    properties:
+      error:
+        type: string
+        example: q is required

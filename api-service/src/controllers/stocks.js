@@ -8,7 +8,6 @@ const stocksService = require('../services/stocks')
 
 async function getStock(req, res) {
   const { q: symbol } = await validateParams(req.query, getStockSchema)
-
   const response = await stocksService.getStock(symbol, req.user)
   res.json(response)
 }

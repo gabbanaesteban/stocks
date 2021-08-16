@@ -9,6 +9,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "db:migrate": "prisma migrate dev",
+    "db:fresh": "prisma migrate reset",
     "pretest": "npm run lint",
     "test": "jest",
     "test:watch": "jest --watch",

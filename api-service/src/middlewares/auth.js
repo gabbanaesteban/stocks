@@ -3,9 +3,7 @@
 const asyncHandler = require('express-async-handler')
 const createError = require('http-errors')
 const jwt = require('jsonwebtoken')
-const { PrismaClient } = require('@prisma/client')
-
-const JWT_SECRET = process.env.JWT_SECRET
+const prisma = require('../db/client')
 
 async function protect(req, res, next) {
   const token = API._getTokenFromHeader(req.headers.authorization)
@@ -22,8 +20,6 @@ async function protect(req, res, next) {
   } catch {
     throw new createError.Unauthorized('Invalid token')
   }
-
-  const prisma = new PrismaClient()
 
   const user = await prisma.user.findFirst({ where: { id: userId } })
 
@@ -54,7 +50,7 @@ function _getTokenFromHeader(header) {
 
 async function _verifyToken(token) {
   return new Promise((resolve, reject) => {
-    jwt.verify(token, JWT_SECRET, (err, data) => {
+    jwt.verify(token, process.env.JWT_SECRET, (err, data) => {
       if (err) reject(err)
       else resolve(data)
     })

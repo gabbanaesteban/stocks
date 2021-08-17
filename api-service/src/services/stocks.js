@@ -2,10 +2,10 @@
 
 const util = require('util')
 const axios = require('axios')
-const { PrismaClient } = require('@prisma/client')
+const prisma = require('../db/client')
 
-const { STOCKS_SERVICE_URL } = process.env
-const GET_STOCK_URL = `${STOCKS_SERVICE_URL}/stocks?q=%s`
+const { STOCKS_SERVICE_HOST } = process.env
+const GET_STOCK_URL = `${STOCKS_SERVICE_HOST}/stocks?q=%s`
 
 /**
  * @param {string} symbol
@@ -27,8 +27,6 @@ async function getStock(symbol, user) {
 async function getHistory(user) {
   const { id: userId } = user
 
-  const prisma = new PrismaClient()
-
   const history = await prisma.stock.findMany({ where: { authorId: userId } })
 
   return history.map(({ content, createdAt: date }) => {
@@ -43,8 +41,6 @@ async function getHistory(user) {
  * @returns {Promise<Array<Object>>}
  */
 async function getStats() {
-  const prisma = new PrismaClient()
-
   const stats = await prisma.stock.groupBy({
     by: ['symbol'],
     _count: { _all: true }
@@ -77,8 +73,6 @@ async function _getStockInfo(symbol) {
  **/
 async function _saveStockRequest(symbol, stock, user) {
   //TODO: use queue to save stock request
-  const prisma = new PrismaClient()
-
   await prisma.stock.create({
     data: {
       symbol: symbol,

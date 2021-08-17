@@ -3,11 +3,11 @@
 const asyncHandler = require('express-async-handler')
 
 const { getStockSchema } = require('../schemas/stocks')
-const { validateParams } = require('../utils/helpers')
+const helpers = require('../utils/helpers')
 const stocksService = require('../services/stocks')
 
 async function getStock(req, res) {
-  const { q: symbol } = await validateParams(req.query, getStockSchema)
+  const { q: symbol } = await helpers.validateParams(req.query, getStockSchema)
   const response = await stocksService.getStock(symbol, req.user)
   res.json(response)
 }

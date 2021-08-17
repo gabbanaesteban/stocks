@@ -8,7 +8,7 @@ const stooq = require('./stooq')
  * @returns {Promise<Object>}
  */
 async function getStock(symbol) {
-  const [stock] = await stooq.getStockBySymbol(symbol)
+  const stock = await stooq.getStockBySymbol(symbol)
 
   if (stock.date === 'N/D') {
     throw new NotFound(`Stock with symbol: ${symbol} not found`)

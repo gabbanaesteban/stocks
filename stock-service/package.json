@@ -7,10 +7,10 @@
     "node": ">=16"
   },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "local": "node index.js",
+    "local:dev": "nodemon index.js",
     "pretest": "npm run lint",
-    "test": "jest",
+    "test": "jest --verbose",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint . --cache --fix"
@@ -35,6 +35,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.6",
+    "msw": "^0.34.0",
     "nodemon": "^2.0.12",
     "prettier": "2.3.2",
     "supertest": "^6.1.3"

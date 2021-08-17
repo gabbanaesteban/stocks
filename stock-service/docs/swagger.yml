@@ -31,10 +31,22 @@ paths:
           description: Ok
           schema:
             $ref: '#/definitions/Stock'
+        '404':
+          description: Not Found
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+                example: "Stock with symbol: foo not found"
         '400':
           description: Bad Request
           schema:
-            $ref: '#/definitions/BadRequest'
+            type: object
+            properties:
+              error:
+                type: string
+                example: q is required
 
 definitions:
   Stock:
@@ -67,10 +79,3 @@ definitions:
       name:
         type: string
         example: "APPLE"
-        
-  BadRequest:
-    type: object
-    properties:
-      error:
-        type: string
-        example: q is required

@@ -4,7 +4,7 @@ const util = require('util')
 const axios = require('axios')
 const parse = require('csv-parse')
 
-const API_URL = 'https://stooq.com/q/l/?s=%s&f=sd2t2ohlcvn&h&e=csv'
+const API_URL = 'https://stooq.com/q/l?s=%s&f=sd2t2ohlcvn&h&e=csv'
 
 /**
  * @param {string} symbol
@@ -20,7 +20,7 @@ async function getStockBySymbol(symbol) {
   return new Promise((resolve, reject) => {
     parse(data, parserOptions, (err, data) => {
       if (err) reject(err)
-      else resolve(data)
+      else resolve(data[0])
     })
   })
 }

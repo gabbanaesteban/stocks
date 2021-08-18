@@ -35,7 +35,7 @@ describe('errorHandler()', () => {
   test('responds with 500 for errors without status code', () => {
     const res = buildRes()
     const next = buildNext()
-    
+
     notFound(buildReq(), null, next)
 
     expect(next.mock.calls[0][0]).toBeInstanceOf(NotFound)

@@ -10,20 +10,19 @@ const stocksController = require('../../../src/controllers/stocks')
 jest.mock('../../../src/services/stocks')
 
 describe('getStock()', () => {
-    it('responds with stock based on symbol', async () => {
-        const symbol = 'aapl'
-        const req = buildReq({  query: { q: symbol } })
-        const res = buildRes()
+  it('responds with stock based on symbol', async () => {
+    const symbol = 'aapl'
+    const req = buildReq({ query: { q: symbol } })
+    const res = buildRes()
 
-        const validateParamsSpy = jest.spyOn(helpers, 'validateParams')
-        stocksService.getStock.mockResolvedValue(buildStock())
+    const validateParamsSpy = jest.spyOn(helpers, 'validateParams')
+    stocksService.getStock.mockResolvedValue(buildStock())
 
-        await stocksController.getStock(req, res)
+    await stocksController.getStock(req, res)
 
-        expect(validateParamsSpy).toHaveBeenCalledWith(req.query, getStockSchema)
+    expect(validateParamsSpy).toHaveBeenCalledWith(req.query, getStockSchema)
 
-        expect(stocksService.getStock).toHaveBeenCalledWith(symbol)
-        expect(res.json).toHaveBeenNthCalledWith(1, buildStock())
-    })
+    expect(stocksService.getStock).toHaveBeenCalledWith(symbol)
+    expect(res.json).toHaveBeenNthCalledWith(1, buildStock())
+  })
 })
-

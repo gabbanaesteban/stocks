@@ -7,8 +7,8 @@
     "node": ">=16"
   },
   "scripts": {
-    "local": "node index.js",
-    "local:dev": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "pretest": "npm run lint",
     "test": "jest --verbose",
     "test:watch": "jest --watch",

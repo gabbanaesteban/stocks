@@ -9,8 +9,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "db:migrate": "prisma migrate dev",
-    "db:fresh": "prisma migrate reset",
+    "db:fresh": "prisma migrate reset --force",
+    "test:db:fresh": "dotenv -e .env.test -- prisma migrate reset --force",
     "pretest": "npm run lint",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -34,6 +34,7 @@
     "yup": "^0.32.9"
   },
   "devDependencies": {
+    "dotenv-cli": "^4.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^24.4.0",

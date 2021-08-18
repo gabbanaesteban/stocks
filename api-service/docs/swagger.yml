@@ -129,7 +129,7 @@ paths:
             properties:
               error:
                 type: string
-                example: q is required
+                example: q parameter is required
 
   /history:
     get:
